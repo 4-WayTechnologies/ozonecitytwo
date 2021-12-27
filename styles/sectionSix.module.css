@@ -1,0 +1,130 @@
+.sectionSix_wrapper{
+    height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 90px !important;
+}
+.sectionSix{
+    height: 900px;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    
+}
+.sectionSix::after{
+    content:"";
+    z-index: -1;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    
+    background: url("/images/02.jpg");
+    object-fit: cover;
+}
+.col_text{
+    background: white;
+    width: 700px;
+    height: 711px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 266px;
+    box-shadow: 13.3264px -13.3264px 26.6528px rgba(0, 0, 0, 0.15), -13.3264px 13.3264px 26.6528px rgba(0, 0, 0, 0.15);
+}
+.col_text h1 {
+    width: 90%;
+    margin: 0 auto ;
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+}
+.col_text h2 {
+    width: 90%;
+    margin: 20px auto ;
+
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+}
+.col_text p {
+    width: 90%;
+    margin: 0 auto ;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+}
+.cta_wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.cta{
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    background:  #5367FC;
+    color: white;
+
+}
+.cta_text{
+    padding-right: 15px;
+    font-size: 33px;
+}
+
+
+@media screen and (max-width:480px){
+    .col_text{
+    background: white;
+    width: unset;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: unset;
+    margin-left: unset;
+    width: 90%;
+    margin: auto;
+    box-shadow: 13.3264px -13.3264px 26.6528px rgba(0, 0, 0, 0.15), -13.3264px 13.3264px 26.6528px rgba(0, 0, 0, 0.15);
+}
+.col_text h1 {
+    width: 90%;
+    margin: 0 auto ;
+    margin-top: 20px;
+
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+.col_text h2 {
+    width: 90%;
+    margin: 20px auto ;
+
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+}
+.col_text p {
+    width: 90%;
+    margin: 0 auto ;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+}
+.cta{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    background:  #5367FC;
+    color: white;
+
+}
+.cta_text{
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+}

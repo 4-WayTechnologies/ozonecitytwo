@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Noto+Serif&display=swap');
+
+.gallery_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+    font-size: 33px;
+    margin: 2rem 0;
+    
+}
+.heading h1{
+    font-family: 'Cinzel', serif;
+}
+.gallery_item{
+    margin: 1rem 1rem;
+}

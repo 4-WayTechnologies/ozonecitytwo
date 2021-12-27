@@ -1,0 +1,113 @@
+.sectionNine_wrapper{
+    
+    width: 100%;
+    margin-top: 125px;
+}
+.sectionNine{
+    width: 80%;
+    margin: auto;
+}
+.sectionNine h1{
+    font-family: Cinzel;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+/* Carousel */
+.carousel_wrapper{
+    margin: 0;
+    width: 80%;
+    margin: auto;
+    margin-top: 45px;
+}
+.sliderWrapper{
+    width: 413.12px;
+    height: 293.18px;
+
+}
+.sliderItem{
+    width: 100%;
+    height: 100%;
+}
+.sliderItem img{
+    margin: 0 !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* CTA */
+.ctaWrapper{
+    width: 80%;
+    margin: auto;
+    display:block;
+}
+.cta_sectionOne{
+    width: 79%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.cta_sectionOne span{
+    font-family: 'Noto Serif', serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    
+}
+.cta_sectionOne span a{
+    text-decoration: none;
+    color: unset;
+}
+.cta_sectionOne span a:hover{
+    cursor: pointer;
+}
+.cta_sectionOne span::after{
+    content: "";
+    width: 5%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #5367FC;;
+}
+@media screen and (max-width:480px) {
+    .sectionNine_wrapper{
+    
+        margin-top: 40px;
+    }
+    .sectionNine h1{
+        padding: 0;
+
+        font-family: Cinzel;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 54px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .sliderWrapper{
+        padding: 0;
+        margin: 0;
+    }
+    .sliderItem{
+        width: 413.12px;
+        padding: 0;
+        margin: 0;
+        height: 293.18px;
+    }
+}

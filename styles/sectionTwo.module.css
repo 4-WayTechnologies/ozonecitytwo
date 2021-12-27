@@ -1,0 +1,124 @@
+.sectionTwo_wrapper{
+    margin-top: 140px;
+    width: 100%;
+}
+.sectionTwo{
+    width: 82%;
+    margin: auto;
+}
+
+
+.sectionOne_text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    float: left;
+    text-align: start;
+}
+.sectionOne_text h2{
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+}
+.sectionOne_text p{
+    font-size: 26px;
+    line-height: 36px;
+    font-family: 'Noto Serif', serif;
+}
+
+.cta_sectionOne{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.cta_sectionOne span{
+    font-size: 33px;
+    /* margin-right: 20px; */
+}
+.cta_sectionOne::after{
+    content: "";
+    width: 13%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #5367FC;;
+}
+
+/* Carousel */
+.sliderWrapper{
+    width: 218px;
+    height: 286px;
+
+}
+.sliderItem{
+    width: 100%;
+    height: 100%;
+}
+.sliderItem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width:480px){
+    .sectionTwo_wrapper{
+        margin-top: 80px;
+        width: 100%;
+        padding: 0;
+    }
+    .sectionTwo{
+        width: 90%;
+        margin: auto;
+    }
+    .sectionOne_text h2{
+    
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .sectionOne_text p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .cta_sectionOne span{
+        font-size: 20px;
+        /* margin-right: 20px; */
+    }
+
+    /* Carousel */
+    .sliderWrapper{
+        width: 218px;
+        height: 286px;
+        text-align: center;
+        /* padding: 2rem; */
+
+    }
+    .sliderItem{
+        width: 100%;
+        height: 100%;
+        margin: 0px 15px;
+       
+    }
+    .sliderItem img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      
+      
+    }
+
+    .carousel_wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

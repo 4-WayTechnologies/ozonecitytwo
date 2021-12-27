@@ -1,0 +1,123 @@
+.sectionOne_wrapper{
+    width: 80%;
+    margin: auto !important;
+    /* height: 100vh; */
+   
+}
+.sectionOne_img{
+    display: flex;
+}
+.oneBG{
+    width: 450px;
+    height: 568px;
+    background: #5367FC;
+    position: absolute;
+    margin-top: -1.5rem;
+}
+.oneImg_wrapper{
+    width: 450px;
+    height: 568px;
+    position: relative;
+
+}
+.oneImg{
+    width: 450px;
+    height: 568px;
+    margin-top: -6rem;
+    margin-left: 6rem;
+    box-shadow: -13.3264px 13.3264px 13.3264px rgba(0, 0, 0, 0.15);
+}
+
+.sectionOne_text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    float: left;
+    text-align: start;
+}
+.sectionOne_text h2{
+    font-size: 40px;
+    font-family: 'Cinzel', serif;
+}
+.sectionOne_text p{
+    font-size: 26px;
+    line-height: 36px;
+    font-family: 'Noto Serif', serif;
+}
+
+.cta_sectionOne{
+    display: flex;
+    align-items: center;
+
+}
+.cta_sectionOne span{
+    font-size: 33px;
+    margin-right: 20px;
+}
+.ctaOne_icon{
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .sectionOne_wrapper{
+        width: 90%;
+        margin: auto !important;
+        /* height: 100vh; */
+       
+    }
+    .oneBG{
+        width:188px;
+        height: 219px;
+        background: #5367FC;
+        position: absolute;
+        margin-top: -1.5rem;
+    }
+    .oneImg_wrapper{
+        width:188px;
+        height: 219px;
+        position: relative;
+    
+    }
+    .oneImg{
+        width:188px;
+        height: 219px;
+        margin-top: -6rem;
+        margin-left: 6rem;
+        box-shadow: -13.3264px 13.3264px 13.3264px rgba(0, 0, 0, 0.15);
+    }
+    .sectionOne_text h2{
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+        
+    }
+    .sectionOne_text p{
+     
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+ 
+    }
+    .cta_sectionOne span  {
+    
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+}
